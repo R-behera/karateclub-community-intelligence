@@ -1,0 +1,112 @@
+
+        <!doctype html>
+        <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Karate Club Community Intelligence</title>
+          <link rel="stylesheet" href="./styles.css">
+        </head>
+        <body class="surface-slate">
+          <div class="page layout-stack eyebrow-outline headline-tall modules-3 hero-align-left">
+            <section class="hero">
+              <div class="panel hero-copy">
+                <span class="eyebrow" data-health>Decision Workbench</span>
+                <h1 id="project-title">Karate Club Community Intelligence</h1>
+                <p id="project-summary" class="lead">Build a community intelligence surface for graph embeddings, role discovery, and network-segmentation insights across fraud and social data.</p>
+                <ul id="project-tags" class="tag-list">
+                  <li>karateclub</li><li>graph</li><li>embeddings</li><li>analytics</li>
+                </ul>
+              </div>
+              <div class="panel hero-side">
+                <div class="metric-grid">
+                  <article class='card'><span>North Star</span><strong>93</strong><em>+7.1%</em></article>
+<article class='card'><span>Variance</span><strong>8%</strong><em>-1.8%</em></article>
+<article class='card'><span>Decision Cycle</span><strong>4d</strong><em>-0.5d</em></article>
+                </div>
+                <div class="mini-grid">
+                  <article class='mini-card'><span>Project Type</span><strong>ANALYTICS</strong></article><article class='mini-card'><span>Domain</span><strong>Graph Community Analytics</strong></article><article class='mini-card'><span>Application</span><strong>Decision Workbench</strong></article><article class='mini-card'><span>Deployment</span><strong>Docker + CI</strong></article>
+                </div>
+              </div>
+            </section>
+            <section class="app-grid">
+              <article class="panel module js-module span-normal">
+          <div class="module-header">
+            <span>Workbench 01</span>
+            <h2>Candidate Builder</h2>
+            <p>Evaluate a single candidate, item, or entity against the decision logic.</p>
+          </div>
+          <textarea class="js-input">{
+  &quot;features&quot;: {
+    &quot;current_conversion&quot;: 0.14,
+    &quot;baseline_conversion&quot;: 0.12,
+    &quot;volume&quot;: 3250,
+    &quot;segment&quot;: &quot;new_users&quot;
+  }
+}</textarea>
+          <div class="button-row">
+            <button class="js-run" data-endpoint="/score" data-input-mode="json">Evaluate Candidate</button>
+          </div>
+          <pre class="js-output">Candidate score and top factors will appear here.</pre>
+        </article>
+<article class="panel module js-module span-normal">
+          <div class="module-header">
+            <span>Workbench 02</span>
+            <h2>Tradeoff Explorer</h2>
+            <p>Compare multiple operating metrics against a baseline to understand the tradeoffs.</p>
+          </div>
+          <textarea class="js-input">{
+  &quot;metrics&quot;: {
+    &quot;acquisition&quot;: 78.0,
+    &quot;activation&quot;: 67.0,
+    &quot;retention&quot;: 74.0,
+    &quot;revenue&quot;: 133.0
+  },
+  &quot;baseline&quot;: {
+    &quot;acquisition&quot;: 71.76,
+    &quot;activation&quot;: 61.64,
+    &quot;retention&quot;: 68.08,
+    &quot;revenue&quot;: 122.36
+  }
+}</textarea>
+          <div class="button-row">
+            <button class="js-run" data-endpoint="/analyze" data-input-mode="json">Explore Tradeoffs</button>
+          </div>
+          <pre class="js-output">Tradeoff summary will appear here.</pre>
+        </article>
+<article class="panel module js-module span-wide">
+          <div class="module-header">
+            <span>Workbench 03</span>
+            <h2>Next-Step Planner</h2>
+            <p>Turn the current signals into an implementation-ready next-step recommendation.</p>
+          </div>
+          <textarea class="js-input">{
+  &quot;prompt&quot;: &quot;Recommend the next best action for Karate Club Community Intelligence.&quot;,
+  &quot;features&quot;: {
+    &quot;current_conversion&quot;: 0.14,
+    &quot;baseline_conversion&quot;: 0.12,
+    &quot;volume&quot;: 3250,
+    &quot;segment&quot;: &quot;new_users&quot;
+  },
+  &quot;metrics&quot;: {
+    &quot;acquisition&quot;: 78.0,
+    &quot;activation&quot;: 67.0,
+    &quot;retention&quot;: 74.0,
+    &quot;revenue&quot;: 133.0
+  }
+}</textarea>
+          <div class="button-row">
+            <button class="js-run" data-endpoint="/recommend" data-input-mode="json">Plan Next Step</button>
+          </div>
+          <pre class="js-output">Recommended actions and rationale will appear here.</pre>
+        </article>
+            </section>
+            <footer class="footer">
+              <span>Graph Community Analytics • ANALYTICS • Decision Workbench</span>
+              <span>karateclub-community-intelligence</span>
+            </footer>
+          </div>
+          <script id="bootstrap-data" type="application/json">{"project": {"slug": "karateclub-community-intelligence", "title": "Karate Club Community Intelligence", "project_type": "analytics", "domain": "Graph Community Analytics", "summary": "Build a community intelligence surface for graph embeddings, role discovery, and network-segmentation insights across fraud and social data.", "tags": ["karateclub", "graph", "embeddings", "analytics"]}, "app_archetype": "workbench", "ui_profile": {"layout": "stack", "surface": "slate", "font_stack": "\"Manrope\", \"Segoe UI\", sans-serif", "radius": 26, "shadow": 68, "eyebrow_style": "outline", "module_columns": 3, "hero_align": "left", "headline_mode": "tall"}, "app_modules": [{"label": "Workbench 01", "title": "Candidate Builder", "description": "Evaluate a single candidate, item, or entity against the decision logic.", "endpoint": "/score", "input_mode": "json", "cta": "Evaluate Candidate", "prefill": "{\n  \"features\": {\n    \"current_conversion\": 0.14,\n    \"baseline_conversion\": 0.12,\n    \"volume\": 3250,\n    \"segment\": \"new_users\"\n  }\n}", "hint": "Candidate score and top factors will appear here.", "span": "normal"}, {"label": "Workbench 02", "title": "Tradeoff Explorer", "description": "Compare multiple operating metrics against a baseline to understand the tradeoffs.", "endpoint": "/analyze", "input_mode": "json", "cta": "Explore Tradeoffs", "prefill": "{\n  \"metrics\": {\n    \"acquisition\": 78.0,\n    \"activation\": 67.0,\n    \"retention\": 74.0,\n    \"revenue\": 133.0\n  },\n  \"baseline\": {\n    \"acquisition\": 71.76,\n    \"activation\": 61.64,\n    \"retention\": 68.08,\n    \"revenue\": 122.36\n  }\n}", "hint": "Tradeoff summary will appear here.", "span": "normal"}, {"label": "Workbench 03", "title": "Next-Step Planner", "description": "Turn the current signals into an implementation-ready next-step recommendation.", "endpoint": "/recommend", "input_mode": "json", "cta": "Plan Next Step", "prefill": "{\n  \"prompt\": \"Recommend the next best action for Karate Club Community Intelligence.\",\n  \"features\": {\n    \"current_conversion\": 0.14,\n    \"baseline_conversion\": 0.12,\n    \"volume\": 3250,\n    \"segment\": \"new_users\"\n  },\n  \"metrics\": {\n    \"acquisition\": 78.0,\n    \"activation\": 67.0,\n    \"retention\": 74.0,\n    \"revenue\": 133.0\n  }\n}", "hint": "Recommended actions and rationale will appear here.", "span": "wide"}], "sample_features": {"current_conversion": 0.14, "baseline_conversion": 0.12, "volume": 3250, "segment": "new_users"}, "sample_metrics": {"acquisition": 78.0, "activation": 67.0, "retention": 74.0, "revenue": 133.0}, "knowledge_base": ["Karate Club Community Intelligence is positioned as a Graph Community Analytics starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.", "The primary value proposition is: Build a community intelligence surface for graph embeddings, role discovery, and network-segmentation insights across fraud and social data.", "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.", "Typical stakeholders include analytics, operations, product, and leadership teams working on karateclub, graph, embeddings, analytics.", "Source paper: Karate Club: An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs", "Official repo: https://github.com/benedekrozemberczki/karateclub", "Production differentiation focus: Translate upstream graph community analytics logic into stakeholder-ready dashboards, memos, and scenario controls.; Add reproducible docs, deployment-ready structure, and polished collateral for GitHub and LinkedIn.; Make the core decisions easier to interpret for product, finance, and operations partners."], "dashboard_metrics": [{"label": "North Star", "value": "93", "delta": "+7.1%"}, {"label": "Variance", "value": "8%", "delta": "-1.8%"}, {"label": "Decision Cycle", "value": "4d", "delta": "-0.5d"}]}</script>
+          <script src="./app.js"></script>
+        </body>
+        </html>

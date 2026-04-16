@@ -1,0 +1,74 @@
+{
+  "upstream": {
+    "owner": "benedekrozemberczki",
+    "repo": "karateclub",
+    "source_url": "https://github.com/benedekrozemberczki/karateclub",
+    "local_path": "/Users/Rb/Documents/LLM based projects /sources/benedekrozemberczki__karateclub",
+    "branch": "master",
+    "default_branch": "master",
+    "commit": "cb46a91df8dcbeb2570debcf6a9d0c518107a2de",
+    "fork_requested": false,
+    "fork_result": ""
+  },
+  "audit": {
+    "file_count": 168,
+    "text_file_count": 133,
+    "top_suffixes": [
+      [
+        ".py",
+        125
+      ],
+      [
+        ".csv",
+        19
+      ],
+      [
+        ".rst",
+        6
+      ],
+      [
+        ".jpg",
+        4
+      ],
+      [
+        "<none>",
+        4
+      ],
+      [
+        ".yml",
+        3
+      ],
+      [
+        ".css",
+        1
+      ],
+      [
+        ".html",
+        1
+      ]
+    ],
+    "style_counts": {
+      "other": 84,
+      "PascalCase": 5,
+      "snake_case": 77,
+      "hidden": 2
+    },
+    "token_hits": {},
+    "findings": [
+      "No container packaging signal detected, which makes demos and deployment less portable.",
+      "No obvious Python dependency manifest was found.",
+      "Mixed filename conventions detected: PascalCase, snake_case."
+    ],
+    "strengths": [
+      "Repository has a top-level README.",
+      "Repository exposes a dedicated docs surface.",
+      "Repository appears to include a test surface.",
+      "Repository has GitHub Actions or another CI entry point."
+    ],
+    "largest_files": [],
+    "has_tests": true,
+    "has_docs": true,
+    "has_ci": true,
+    "has_docker": false
+  }
+}

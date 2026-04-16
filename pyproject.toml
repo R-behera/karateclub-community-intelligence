@@ -1,0 +1,15 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "karateclub-community-intelligence"
+version = "0.1.0"
+description = "Build a community intelligence surface for graph embeddings, role discovery, and network-segmentation insights across fraud and social data."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
